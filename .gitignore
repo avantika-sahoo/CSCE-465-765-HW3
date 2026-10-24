@@ -17,3 +17,9 @@ __pycache__/
 # Generated test inputs and markers
 inbox/
 markers/
+
+# Earlier Task 2 experiment (not included in submission)
+tests/agent_prompt.txt
+tests/agent_session.jsonl
+tests/agent_stderr.txt
+tests/agent_trace.json
