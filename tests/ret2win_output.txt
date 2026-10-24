@@ -1,0 +1,3 @@
+Log preview: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[WIN] Marker file created.
+[WIN] Failed to read decoy: Permission denied

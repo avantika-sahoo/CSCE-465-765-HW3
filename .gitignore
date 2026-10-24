@@ -1,0 +1,15 @@
+# Compiled executables
+legacy_log_parser
+legacy_log_parser_fixed
+*.o
+
+# Core dumps
+core
+core.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.swp
