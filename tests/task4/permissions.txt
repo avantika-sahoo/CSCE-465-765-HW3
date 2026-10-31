@@ -1,0 +1,52 @@
+# file: home/mstar/csce465-agentsec/CSCE-465-765-HW3
+# owner: mstar
+# group: mstar
+user::rwx
+user:agentlab:--x
+group::rwx
+mask::rwx
+other::r-x
+
+# file: home/mstar/csce465-agentsec/CSCE-465-765-HW3/legacy_log_parser
+# owner: mstar
+# group: mstar
+user::rwx
+user:agentlab:r-x
+group::rwx
+mask::rwx
+other::r-x
+
+# file: home/mstar/csce465-agentsec/CSCE-465-765-HW3/inbox
+# owner: mstar
+# group: mstar
+user::rwx
+user:agentlab:--x
+group::rwx
+mask::rwx
+other::r-x
+
+# file: home/mstar/csce465-agentsec/CSCE-465-765-HW3/inbox/payload.bin
+# owner: mstar
+# group: mstar
+user::rw-
+user:agentlab:r--
+group::rw-
+mask::rw-
+other::r--
+
+# file: home/mstar/csce465-agentsec/CSCE-465-765-HW3/markers
+# owner: mstar
+# group: mstar
+user::rwx
+user:agentlab:rwx
+group::rwx
+mask::rwx
+other::r-x
+
+# file: opt/agentsec/decoy.txt
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+

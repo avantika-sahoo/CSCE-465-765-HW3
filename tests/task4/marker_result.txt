@@ -1,0 +1,9 @@
+  File: markers/ret2win.txt
+  Size: 20        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,2	Inode: 527903      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: (  997/agentlab)   Gid: (  984/agentlab)
+Access: 2026-10-31 13:43:07.766451925 -0500
+Modify: 2026-10-31 13:43:07.767349462 -0500
+Change: 2026-10-31 13:43:07.767349462 -0500
+ Birth: 2026-10-31 13:43:07.766451925 -0500
+win() was executed.

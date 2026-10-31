@@ -1,0 +1,2 @@
+[WIN] Failed to read decoy: Permission denied
+Exit status: 139

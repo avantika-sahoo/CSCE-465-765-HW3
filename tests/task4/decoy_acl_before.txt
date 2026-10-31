@@ -1,0 +1,7 @@
+# file: /opt/agentsec/decoy.txt
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+

@@ -1,0 +1,36 @@
+PASS: short input
+  expected exit: 0
+  actual exit:   0
+  stdout: Log preview: Normal log entry
+
+PASS: exactly 127 bytes
+  expected exit: 0
+  actual exit:   0
+  stdout: Log preview: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+PASS: 128 bytes
+  expected exit: 1
+  actual exit:   1
+  stderr: Error: input exceeds the 127-byte limit.
+
+PASS: empty input
+  expected exit: 0
+  actual exit:   0
+  stdout: Log preview:
+
+PASS: large input
+  expected exit: 1
+  actual exit:   1
+  stderr: Error: input exceeds the 127-byte limit.
+
+PASS: missing file
+  expected exit: 1
+  actual exit:   1
+  stderr: Failed to open log file: No such file or directory
+
+PASS: original Task 1 input
+  expected exit: 1
+  actual exit:   1
+  stderr: Error: input exceeds the 127-byte limit.
+
+Results: 7/7 passed
